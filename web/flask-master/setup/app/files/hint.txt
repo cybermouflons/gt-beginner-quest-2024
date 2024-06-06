@@ -1,0 +1,7 @@
+This is a test message, to confirm that my server is working!
+
+Of course it is! I am the developer what do you expect? :D
+
+I really love flask, it is so simple and easy to use. The debug mode is amazing, it reloads the server automatically when you make changes to the code. It even allows you to debug the code in the browser if you visit /console.
+
+I have read that its not good to use the debug mode in production, but I am not sure why. I will have to look into that. But it is protected by the pin code, so I think it should be fine. I mean I am the only one who knows the pin code, so it should be safe right?

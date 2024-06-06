@@ -1,0 +1,30 @@
+name: "Flask Master"
+author: "Evangelospro"
+category: web
+
+description: |
+  Flask Master is the sequel to Baby Flask.
+
+  I always loved being organized, so I decided to create a file manager that will help me keep my files in order. Please, don't mess with my files, I have a lot of important stuff in there! I mean you can't get /flag.txt or anything, right? Execute /readflag to prove me wrong! Can you recover the pin now that the logs are gone?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 50
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - flag{f4k3_fl4g_f0r_t3st1ng}
+
+tags:
+  - web
+  - hard
+
+files:
+  - "public/flask-master.zip"
+
+state: visible
+version: "0.1"

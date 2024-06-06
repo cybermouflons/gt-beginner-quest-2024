@@ -1,0 +1,15 @@
+Date: 19/06/2024
+Time: 13:33:37
+
+Dear Diary,
+
+Today, I made significant progress on the web application I'm developing. I focused on implementing a new feature that allows users to view files securely. It was quite challenging, but I managed to integrate a file view functionality using Flask, a Python web framework.
+
+I started by creating a new route in my Flask app to handle file view requests. I used the `request` object to retrieve the requested file from the request payload.
+
+Next, I implemented a feature to display my uploaded files on the user interface. I used Jinja2 templating engine to dynamically render the file list and provide download links for each file. This way, users can easily access and download their uploaded files.
+
+Overall, I'm pleased with the progress I made today. The file download feature is now functional and secure (I think), enhancing the overall user experience of the web application. Tomorrow, I plan to focus on further refining the user interface and adding additional features, and allow uploads from the web ui.
+
+Until next time,
+Grand-Deviloper
