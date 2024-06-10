@@ -1,0 +1,26 @@
+name: "needle-in-a-haystack"
+author: "k4rt0fl3r"
+category: pwn
+
+description: |
+  Can you help me with finding my needle? It got lost in this haystack.
+
+value: 500
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+
+
+flags:
+  - GTBQ{gdb-r0cks-w3ll-d0n3-0n-us1ng-gdb!}
+
+tags:
+  - pwn
+  - easy
+
+files:
+  - "public/challenge"
+
+state: visible
+version: "0.1"
