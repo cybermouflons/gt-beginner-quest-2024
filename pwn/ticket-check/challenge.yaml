@@ -1,0 +1,30 @@
+name: "ticket-check"
+author: "k4rt0fl3r"
+category: pwn
+
+description: |
+  Tickets, please. Tickets!
+
+value: 500
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{c0ngr4t5-0n-y0ur-f1r5t-B0F!}
+
+tags:
+  - pwn
+  - easy
+
+files:
+  - "public/challenge"
+  - "public/challenge.c"
+  - "public/flag.txt"
+
+state: visible
+version: "0.1"
