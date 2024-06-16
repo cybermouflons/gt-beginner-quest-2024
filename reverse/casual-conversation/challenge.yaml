@@ -1,0 +1,26 @@
+name: "casual-conversation"
+author: "christoss"
+category: reverse
+
+description: |
+  
+
+value: 500
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+
+
+flags:
+  - GTBQ{w3lc0m3_t0_th3_w0nd3rfu1_w0r1d_0f_d3bugg3r5}
+
+tags:
+  - reverse
+  - beginner
+
+files:
+  - "public/casual-conversation"
+
+state: visible
+version: "0.1"
