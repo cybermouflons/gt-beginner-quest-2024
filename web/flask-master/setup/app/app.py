@@ -8,6 +8,7 @@ def index():
     files = os.listdir('files')
     return render_template('index.html', files=files)
 
+
 @app.route('/get_file', methods=['POST'])
 def get_file():
     filename = request.form['filename']
@@ -15,6 +16,5 @@ def get_file():
     with open(filename, 'r') as f:
         return f.read()
 
-
 if __name__ == '__main__':
-    app.run('0.0.0.0', 1337, debug=True)
+    app.run('127.0.0.1', 5000, debug=True)

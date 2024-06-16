@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: ghcr.io/cybermouflons/gt-beginner-quest-2024/baby-flask:latest
     ports:
-      - 1337:1337
+      - 1337:80
     # volumes:
     #   - ./setup/app:/app
     environment:
