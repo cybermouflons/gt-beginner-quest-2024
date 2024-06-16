@@ -1,0 +1,26 @@
+name: "software-tracer"
+author: "christoss"
+category: reverse
+
+description: |
+  
+
+value: 500
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+
+
+flags:
+  - GTBQ{ltr4c3_unv31l5_th3_h1dd3n_w4y5_1n_th3_50ftw4r3_m4z3!!}
+
+tags:
+  - reverse
+  - easy
+
+files:
+  - "public/software-tracer"
+
+state: visible
+version: "0.1"
