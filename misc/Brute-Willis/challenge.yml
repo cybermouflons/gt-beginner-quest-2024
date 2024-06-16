@@ -1,0 +1,27 @@
+name: "Brute Willis"
+author: "tratrafe2"
+category: misc
+
+description: |
+  Brute willis and henry Force are up to something. We found this script they used to generate a flag. However, the program they used only allows them to have a 6-digit pin.
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{Brut3_F0rc3_s0m3t1m35_w0rk5}
+
+files:
+  - public/main.py
+  - public/output.txt
+
+tags:
+  - misc
+  - medium
+
+state: visible
+version: "0.1"
