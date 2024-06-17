@@ -1,0 +1,26 @@
+name: "secret-key"
+author: "tratrafe2"
+category: misc
+
+description: |
+  while trying to investigate tHe files of a criminal, we found this wEird key_X.txt file. however, it doesn't seem to have any meaning. mayBe it's An encoded mesSagE that we should try to re6ognize and cr4ck it. let's tRy Our besT!
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{3nc0d1ng_15_r3ally_c00l_but_n0t_s0_saf3!}
+
+files:
+  - public/key_x.txt
+
+tags:
+  - misc
+  - easy
+
+state: visible
+version: "0.1"
