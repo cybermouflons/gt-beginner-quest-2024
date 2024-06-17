@@ -1,0 +1,10 @@
+version: '3'
+services:
+  c4lcu1at0r:
+    image: ghcr.io/cybermouflons/gtbq-2024/c4lcu1at0r:latest
+    restart: always
+    build: ./setup/
+    environment:
+      FLAG: CCSC{1t5_4_b1t_t0o_muCh_t0_d0_by_h4nd}
+    ports:
+      - 1337:1337

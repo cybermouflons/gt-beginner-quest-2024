@@ -1,0 +1,28 @@
+name: "c4lcu1at0r"
+author: "cfalas"
+category: misc
+
+description: |
+  Back in the old days, people used to calculate things using a calculator. Nowadays, we have computers to do that for us. Can it still do the job?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - CCSC{1t5_4_b1t_t0o_muCh_t0_d0_by_h4nd}
+
+files:
+  - public/server.py
+
+tags:
+  - misc
+  - medium
+
+state: visible
+version: "0.1"
