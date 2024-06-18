@@ -1,3 +1,4 @@
+# https://github.com/Ruulian/wconsole_extractor Awesome script to fetch public bits for flask pin with path traversal
 from wconsole_extractor import WConsoleExtractor
 import requests
 import re
