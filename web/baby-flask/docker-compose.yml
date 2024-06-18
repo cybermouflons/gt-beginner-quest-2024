@@ -4,7 +4,7 @@ services:
     build:
       context: ./setup
       dockerfile: Dockerfile
-    image: ghcr.io/cybermouflons/gt-beginner-quest-2024/baby-flask:latest
+    image: ghcr.io/cybermouflons/gtbq-2024/baby-flask:latest
     ports:
       - 1337:80
     environment:
