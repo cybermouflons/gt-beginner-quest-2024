@@ -6,6 +6,7 @@ description: |
   Can you help me with finding my needle? It got lost in this haystack.
 
 value: 500
+type: dynamic
 extra:
   initial: 500
   minimum: 100
