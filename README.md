@@ -24,11 +24,34 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 
 
+### pwn
+
+| Name | Author |
+| ---- | ------ |
+| [needle-in-a-haystack](./pwn/needle-in-a-haystack) | k4rt0fl3r |
+| [ticket-check](./pwn/ticket-check) | k4rt0fl3r |
+
+
+
+### reverse
+
+| Name | Author |
+| ---- | ------ |
+| [casual-conversation](./reverse/casual-conversation) | christoss |
+| [software-tracer](./reverse/software-tracer) | christoss |
+
+
+
 ### web
 
 | Name | Author |
 | ---- | ------ |
 | [Baby Flask](./web/baby-flask) | Evangelospro |
+| [Biscuits](./web/biscuits) | Evangelospro |
 | [Flask Master](./web/flask-master) | Evangelospro |
+| [looooong](./web/looooong) | Evangelospro |
+| [NMAPper](./web/nmapper) | Evangelospro |
+| [SQL Sleuth: The Hidden Injection](./web/sql-sleuth) | Evangelospro |
+| [SSRFing](./web/ssrfing) | Evangelospro |
 
 
