@@ -6,6 +6,7 @@ description: |
   Tickets, please. Tickets!
 
 value: 500
+type: dynamic_docker
 extra:
   initial: 500
   minimum: 100
