@@ -23,7 +23,5 @@ tags:
   - web
   - insane
 
-files:
-
 state: hidden
 version: "0.1"
