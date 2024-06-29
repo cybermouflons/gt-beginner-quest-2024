@@ -1,0 +1,27 @@
+name: "looooong"
+author: "Evangelospro"
+category: web
+
+description: |
+  Begin your journey and follow the trail. Hidden within lies the flag. Can you navigate the path and uncover the secret?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{Why_1s_1t_t4k1ng_s0_l0000ng?}
+
+tags:
+  - web
+  - beginner
+
+files:
+
+state: visible
+version: "0.1"

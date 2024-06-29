@@ -1,0 +1,27 @@
+name: "SSRFing"
+author: "Evangelospro"
+category: web
+
+description: |
+  I've heard about this cool new way of surfing the web, it's called SSRFing! I've set up a server for you to try it out. Can you find the flag behind the admin portal?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{Acce55ing_1nt3rn4l_5erv1c35_1s_50_Aw3s0m3}
+
+tags:
+  - web
+  - medium
+
+files:
+
+state: visible
+version: "0.1"

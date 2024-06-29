@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./setup
+      dockerfile: Dockerfile
+    image: ghcr.io/cybermouflons/gtbq-2024/sqlsleuth:latest
+    ports:
+      - 1337:80
+    environment:
+      - FLAG=GTBQ{Y0u_H4v3_inj3cted_y0Urs3lf_to_4dm1n_c0ngr4ts!}
+      - FLASK_APP=/app/app.py
+      - FLASK_ENV=development
+    # volumes:
+    #   - ./setup/app:/app

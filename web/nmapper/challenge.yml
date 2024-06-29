@@ -1,0 +1,27 @@
+name: "NMAPper"
+author: "Evangelospro"
+category: web
+
+description: |
+  In old time people had those big and chunky paper maps to navigate through the world. Nowadays we have tools like Nmap to navigate through the internet. Can you find the hidden flag on this servers filesystem?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{C0mm4nd_Inj3cti0n_1s_4_G4m3_0v3r!!!}
+
+tags:
+  - web
+  - easy
+
+files:
+
+state: visible
+version: "0.1"

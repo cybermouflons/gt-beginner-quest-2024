@@ -1,0 +1,27 @@
+name: "SQL Sleuth: The Hidden Injection"
+author: "Evangelospro"
+category: web
+
+description: |
+  A simple login page guards a secret deep within its code. Whispers hint at a vulnerability that can unlock the gate. Can you, the SQL sleuth, uncover the hidden injection and reveal the flag? The query holds the key. Proceed with caution and keen insight.
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{Y0u_H4v3_inj3cted_y0Urs3lf_to_4dm1n_c0ngr4ts!}
+
+tags:
+  - web
+  - easy
+
+files:
+
+state: visible
+version: "0.1"

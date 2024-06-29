@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./setup
+      dockerfile: Dockerfile
+    image: ghcr.io/cybermouflons/gtbq-2024/looooong:latest
+    ports:
+      - 1337:80
+    environment:
+      - FLAG=GTBQ{Why_1s_1t_t4k1ng_s0_l0000ng?}
+      - FLASK_APP=/app/app.py
+      - FLASK_ENV=development
+    # volumes:
+    #   - ./setup/app:/app

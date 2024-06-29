@@ -1,0 +1,37 @@
+{% extends "layout.html" %} {% block content %}
+<div class="card">
+	<div class="card-header text-center">Tools</div>
+    <h2 class="text-center">
+        A hacker has many tools in his toolbox, Nmap is one of the most used
+        ones though, so I made this web UI for it.
+    </h2>
+	<img
+		class="card-img-top"
+		src="static/images/toolbox.png"
+		alt="nmap"
+		style="max-width: 550px; height: auto; margin: 0 auto"
+	/>
+	<div class="card-header text-center">Nmap scan</div>
+	<div class="card-body">
+		<form action="/nmap" method="post">
+			<div class="form-group">
+				<label for="target">Enter IP Address or Range:</label>
+				<input
+					type="text"
+					class="form-control"
+					id="target"
+					name="target"
+					placeholder="E.g., 192.168.1.1 or 192.168.1.1/24"
+					required
+				/>
+			</div>
+			<button type="submit" class="btn btn-primary">Scan</button>
+		</form>
+	</div>
+	{% if output %}
+	<div class="card-body">
+		<pre class="text-white">{{ output }}</pre>
+	</div>
+	{% endif %}
+</div>
+{% endblock %}

@@ -21,10 +21,9 @@ flags:
 
 tags:
   - web
-  - hard
+  - insane
 
 files:
-  - "public/public.zip"
 
-state: visible
+state: hidden
 version: "0.1"

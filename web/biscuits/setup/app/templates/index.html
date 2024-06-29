@@ -1,0 +1,93 @@
+{% extends "layout.html" %} {% block content %}
+<style>
+    .recipe-card {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .recipe-card img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+</style>
+<div class="container">
+    <h1 class="text-center mt-4 mb-4">Cookie Recipes</h1>
+
+    <div class="row">
+        <!-- Chocolate Chip Cookies -->
+        <div id="chocolate-chip-cookies" class="col-lg-4 mb-4">
+            <div class="recipe-card">
+                <h2>Chocolate Chip Cookies</h2>
+                <p>A classic favorite, perfect for any occasion.</p>
+                <img src="static/images/chocolate-chip.jpeg" alt="Chocolate Chip Cookies">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>1 cup butter, softened</li>
+                    <li>1 cup white sugar</li>
+                    <li>1 cup packed brown sugar</li>
+                    <li>2 eggs</li>
+                    <li>2 teaspoons vanilla extract</li>
+                    <li>3 cups all-purpose flour</li>
+                    <li>1 teaspoon baking soda</li>
+                    <li>2 teaspoons hot water</li>
+                    <li>1/2 teaspoon salt</li>
+                    <li>2 cups semisweet chocolate chips</li>
+                </ul>
+                <a href="#" class="btn btn-primary">View Recipe</a>
+            </div>
+        </div>
+
+        <!-- Oatmeal Cookies -->
+        <div id="oatmeal-cookies" class="col-lg-4 mb-4">
+            <div class="recipe-card">
+                <h2>Oatmeal Cookies</h2>
+                <p>Hearty and wholesome, perfect with a glass of milk.</p>
+                <img src="static/images/oatmeal.jpeg" alt="Oatmeal Cookies">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>1 cup butter, softened</li>
+                    <li>1 cup packed brown sugar</li>
+                    <li>1/2 cup white sugar</li>
+                    <li>2 eggs</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <li>1 1/2 cups all-purpose flour</li>
+                    <li>1 teaspoon baking soda</li>
+                    <li>1/2 teaspoon salt</li>
+                    <li>3 cups quick-cooking oats</li>
+                    <li>1 cup raisins (optional)</li>
+                </ul>
+                <a href="#" class="btn btn-primary">View Recipe</a>
+            </div>
+        </div>
+
+        <!-- Peanut Butter Cookies -->
+        <div id="peanut-butter-cookies" class="col-lg-4 mb-4">
+            <div class="recipe-card">
+                <h2>Peanut Butter Cookies</h2>
+                <p>A nutty delight that melts in your mouth.</p>
+                <img src="static/images/peanut-butter.jpg" alt="Peanut Butter Cookies">
+                <p><strong>Ingredients:</strong></p>
+                <ul>
+                    <li>1 cup unsalted butter, softened</li>
+                    <li>1 cup creamy peanut butter</li>
+                    <li>1 cup white sugar</li>
+                    <li>1 cup packed brown sugar</li>
+                    <li>2 eggs</li>
+                    <li>2 1/2 cups all-purpose flour</li>
+                    <li>1 teaspoon baking powder</li>
+                    <li>1/2 teaspoon salt</li>
+                    <li>1 1/2 teaspoons baking soda</li>
+                </ul>
+                <a href="#" class="btn btn-primary">View Recipe</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./setup
+      dockerfile: Dockerfile
+    image: ghcr.io/cybermouflons/gtbq-2024/nmapper:latest
+    ports:
+      - 1337:80
+    environment:
+      - FLASK_APP=/app/app.py
+      - FLASK_ENV=development
+    # volumes:
+    #   - ./setup/app:/app
