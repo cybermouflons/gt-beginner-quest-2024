@@ -16,11 +16,11 @@ extra:
 
 
 flags:
-  - GTBQ{py7h0n2_w45_d3pr3c473d_f0r_4_r3450n3}
+  - GTBQ{py7h0n2_w45_d3pr3c473d_f0r_4_r3450n}
 
 tags:
   - pwn
-  - begginer
+  - medium
 
 files:
   - "public/challenge.py"
