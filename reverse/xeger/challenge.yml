@@ -1,0 +1,27 @@
+name: "xeger"
+author: "oxnan"
+category: reverse
+
+description: |
+  This looks like some fancy [CTRL] + [F] thing...\nThe flag matches the following regex: [a-zA-Z0-9\\x20-\\x2f\\x3a-\\x40\\x5e-\\x60\\x7b-\\x7e]
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+
+
+flags:
+  - GTBQ{D0n'7_y0u_l0v3_r3g3x?!}
+
+tags:
+  - rev
+  - easy
+
+files:
+  - "public/challenge.txt"
+
+state: visible
+version: "0.1"
