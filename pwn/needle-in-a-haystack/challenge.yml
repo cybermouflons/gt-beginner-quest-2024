@@ -12,7 +12,6 @@ extra:
   minimum: 100
   decay: 25
 
-
 flags:
   - GTBQ{gdb-r0cks-w3ll-d0n3-0n-us1ng-gdb!}
 
