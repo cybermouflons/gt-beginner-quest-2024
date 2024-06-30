@@ -1,0 +1,10 @@
+version: '3'
+services:
+  users-service:
+    image: ghcr.io/cybermouflons/gtbq-2024/xanadus-scripted-symphony-users-service:latest
+    build: ./setup/users-service
+    ports:
+      - "5000:5000"
+  admin-bot-service:
+    image: ghcr.io/cybermouflons/gtbq-2024/xanadus-scripted-symphony-admin-bot-service:latest
+    build: ./setup/admin-bot-service

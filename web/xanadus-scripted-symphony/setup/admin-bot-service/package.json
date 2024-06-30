@@ -1,0 +1,13 @@
+{
+    "name": "admin-bot-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.19.2",
+      "puppeteer": "^22.12.1"
+    }
+  }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://hackerthemes.com/bootstrap-themes/demo/theme-machine/neon-glow/css/bootstrap4-neon-glow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: inherit;
+            min-height: inherit;
+        }
+        .row {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="neon-glow">
+    <nav class="navbar fixed-top justify-content-between">
+        <a href="/" class="btn btn-primary neon-border-blue"><i class="fas fa-home"></i></a>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center neon-text-blue">Login</h1>
+
+                <!-- Error Message -->
+                {% if error_message %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error_message }}
+                </div>
+                {% endif %}
+
+                <form action="/auth/login" method="post">
+                    <div class="form-group">
+                        <label for="username" class="neon-text-blue">Username</label>
+                        <input type="text" class="form-control neon-border-blue" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="neon-text-blue">Password</label>
+                        <input type="password" class="form-control neon-border-blue" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary neon-border-blue">Login</button>
+                            </div>
+                            <div class="col text-right">
+                                <!-- Register Message -->
+                                <p class="neon-text-blue">Don't have an account? <a href="/auth/register">Register</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

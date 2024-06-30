@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="https://hackerthemes.com/bootstrap-themes/demo/theme-machine/neon-glow/css/bootstrap4-neon-glow.css">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: inherit;
+            min-height: inherit;
+        }
+        .row {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="neon-glow">
+    <h1 class="text-center neon-text-blue">{{ post.title }}</h1>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 col-12">
+                <div class="card mb-4 neon-border-blue">
+                    <img src="data:image/png;base64,{{ post.picture }}" class="card-img-top" alt="{{ post.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title neon-text-blue">{{ post.title }}</h5>
+                        <p class="card-text">{{ post.content | safe}}</p>
+                        <p class="card-text"><small class="text-muted">Posted by {{ user.username }}</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-top justify-content-between">
+        <a href="/" class="btn btn-primary neon-border-blue"><i class="fas fa-home"></i></a>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/auth/logout">Log Out</a>
+                <a class="dropdown-item" href="/posts/report">Report URL</a>
+                <a class="dropdown-item" href="/posts/add">Add Post</a>
+                <a class="dropdown-item" href="/posts">My Posts</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
