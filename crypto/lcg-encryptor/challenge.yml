@@ -16,7 +16,7 @@ flags:
   - GTBQ{570p_br34k1n6_my_PRNGs..:|..}
 
 files:
-  - public/main.py
+  - public/source.py
   - public/output.txt
 
 tags:
