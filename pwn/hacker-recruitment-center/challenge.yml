@@ -1,0 +1,26 @@
+name: "hacker-recruitment-center"
+author: "christoss"
+category: pwn
+
+description: |
+  Hacking is about thinking (and sometimes writing?) outside the box. Give it a try!
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{4_y0ung_h4ck3r_1n_7h3_m4k1ng}
+
+tags:
+  - pwn
+  - easy
+
+state: visible
+version: "0.1"

@@ -1,0 +1,11 @@
+services:
+  challenge:
+    restart: always
+    ports:
+      - 1337:1337
+    image: ghcr.io/cybermouflons/gtbq-2024/hacker-recruitment-center:latest
+    build:
+      context: ./setup
+      dockerfile: Dockerfile
+      labels: 
+        ctf.challenge.name: hacker-recruitment-center
