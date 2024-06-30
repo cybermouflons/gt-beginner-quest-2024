@@ -1,0 +1,20 @@
+services:
+
+  app:
+    image: ghcr.io/cybermouflons/ccsc2024/hidden_notes:latest
+    build: ./setup/
+    ports:
+      - 3000:3000 
+    environment:
+      admin_username: admin
+      admin_password: 62ff520a0a1d2a13e85b
+      flag: CTF{wh3n_th3r3_4r3_n0_d00r5_ch3ck_1D0R}
+    # volumes: # For debugging
+    #   - ./setup/middleware:/app/middleware
+    #   - ./setup/routes:/app/routes
+    #   - ./setup/static:/app/static
+    #   - ./setup/views:/app/views
+    #   - ./setup/database.js:/app/database.js
+    #   - ./setup/server.js:/app/server.js
+    #   - ./setup/database.db:/app/database.db
+      

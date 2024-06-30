@@ -1,0 +1,28 @@
+name: "Hidden Notes"
+author: "sAINT_barber"
+category: web
+
+description: |
+  Look at my note taking application! 
+  Its so easy to keep organised, lots of impotant information can be stored by multiple users! 
+  I sure hope you cant read other users notes!
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - CTF{wh3n_th3r3_4r3_n0_d00r5_ch3ck_1D0R}
+
+tags:
+  - beginner
+
+
+state: visible
+version: "0.1"
