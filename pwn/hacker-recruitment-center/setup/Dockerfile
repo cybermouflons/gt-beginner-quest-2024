@@ -1,16 +1,17 @@
-FROM python:2.7-slim
+FROM ubuntu:22.04
+
+RUN apt-get update && apt-get install -y socat gcc-multilib
 
 RUN addgroup --system ctf && adduser --system --group ctf
 
 USER ctf
 WORKDIR /home/ctf
 
-COPY challenge.py .
-COPY flag.txt .
-COPY socat .
+COPY ./challenge .
+COPY ./wrap.sh .
+COPY ./flag.txt .
 
-env PYTHONUNBUFFERED 1
+# RUN chmod +x ./wrap.sh ./challenge
 
 EXPOSE 1337
-CMD ["/home/ctf/socat", "-v","TCP-LISTEN:1337,reuseaddr,fork", "EXEC:'python challenge.py'"]
-# ENTRYPOINT "bash"
+CMD ["socat", "-v","TCP-LISTEN:1337,reuseaddr,fork", "EXEC:'./wrap.sh'"]
