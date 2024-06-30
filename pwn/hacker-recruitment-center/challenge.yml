@@ -20,7 +20,7 @@ flags:
 
 tags:
   - pwn
-  - easy
+  - beginner
 
 state: visible
 version: "0.1"
