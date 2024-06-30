@@ -54,6 +54,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [kidrev](./reverse/kidrev) | souvlakia |
 | [Out of order](./reverse/out-of-order) | souvlakia |
 | [software-tracer](./reverse/software-tracer) | christoss |
+| [xeger](./reverse/xeger) | oxnan |
 
 
 
