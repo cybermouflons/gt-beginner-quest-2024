@@ -24,6 +24,14 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 
 
+### Forensics
+
+| Name | Author |
+| ---- | ------ |
+| [String Decoder](./forensics/string_decoder) | canopus |
+
+
+
 ### misc
 
 | Name | Author |
@@ -71,5 +79,6 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [SQL Sleuth: The Hidden Injection](./web/sql-sleuth) | Evangelospro |
 | [SSRFing](./web/ssrfing) | Evangelospro |
 | [Where's The Sauce?](./web/wheres_the_sauce) | sAINT_barber |
+| [Xanadu's Scripted Symphony](./web/xanadus-scripted-symphony) | MariosK |
 
 
