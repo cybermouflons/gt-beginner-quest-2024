@@ -51,6 +51,8 @@ Although some of the challenges may run as is, it is recommended that you have d
 | Name | Author |
 | ---- | ------ |
 | [casual-conversation](./reverse/casual-conversation) | christoss |
+| [kidrev](./reverse/kidrev) | souvlakia |
+| [Out of order](./reverse/out-of-order) | souvlakia |
 | [software-tracer](./reverse/software-tracer) | christoss |
 
 
