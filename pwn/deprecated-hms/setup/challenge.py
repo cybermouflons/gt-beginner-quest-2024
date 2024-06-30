@@ -16,7 +16,7 @@ class bcolors:
 print("""
 {0}||==============================================================================||
 ||  Warnng: This application is using python2 and is deprecated.                ||
-||          Please do not use in production.                                    ||
+||          Please do not use in any production environments                    ||
 ||          Contains potential security vulnerabilities.                        ||
 ||==============================================================================||{1}
 """.format(bcolors.WARNING, bcolors.ENDC))
