@@ -1,8 +1,7 @@
 const express = require('express')
 const router = express.Router({ caseSensitive: true });
 
-const response = data => ({ message: data });
-flag = process.env.flag
+flag = process.env.flag || "CTF{fake_flag_for_testing}"
 
 const flag_part_1 = flag.slice(0, flag.length / 2)
 const flag_part_2 = flag.slice(flag.length / 2, flag.length)

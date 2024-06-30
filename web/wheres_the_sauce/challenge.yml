@@ -15,13 +15,14 @@ extra:
   redirect_type: http
   compose_stack: !filecontents docker-compose.yml
 
-
 flags:
   - CTF{r34d_th3_50urc3_und3r57and_th3_5auc3}
 
 tags:
   - beginner
 
+files:
+  - "public/wheres_the_sauce.zip"
 
 state: visible
 version: "0.1"
