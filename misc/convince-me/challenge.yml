@@ -1,0 +1,25 @@
+name: "convince-me"
+author: "cfalas"
+category: misc
+
+description: |
+  The machines have taken over. If you ask nicely, they might give you the flag.
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - CTF{39b8f45879db8f58f48d64ceb818e567}
+
+tags:
+  - misc
+  - easy
+
+state: visible
+version: "0.1"
