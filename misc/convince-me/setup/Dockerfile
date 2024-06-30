@@ -6,4 +6,4 @@ WORKDIR /app
 COPY server.py .
 
 EXPOSE 1337
-CMD ["socat", "-v","TCP-LISTEN:1337,reuseaddr,fork", "EXEC:'/app/server.py'"]
+CMD ["socat", "-v","TCP-LISTEN:1337,reuseaddr,fork", "EXEC:'python3 /app/server.py'"]
