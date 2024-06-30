@@ -1,0 +1,7 @@
+version: '3'
+services:
+  casino:
+    build: ./setup/
+    image: ghcr.io/cybermouflons/gtbq-2024/rng-casino:latest
+    ports:
+      - 1337:1337

@@ -1,0 +1,25 @@
+name: "S3cure Chats"
+author: "souvlakia"
+category: crypto
+
+description: |
+  Bob made a web application to chat with his friends publicly and securely. He put his trust in RSA but he's not sure if his friends know how to use it securely. Can you read their secret message? (There is no web exploitation involved in this challenge)
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{d0n7_u53_5m4ll_3xp0n3n7_6uy5}
+
+tags:
+  - crypto
+  - medium
+
+state: visible
+version: "0.1"

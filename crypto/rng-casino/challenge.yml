@@ -1,0 +1,28 @@
+name: "RNG Casino"
+author: "souvlakia"
+category: crypto
+
+description: |
+  Welcome to the RNG Casino, where you can play games of chance. Since I'm feeling generous I will let you practice your luck for free (no prices when practicing). Don't make me regret it!
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{y0u_cr4ck3d_my_r4nd:(}
+
+files:
+  - public/server.py
+
+tags:
+  - crypto
+  - medium
+
+state: visible
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "LCG Encryptor"
+author: "souvlakia"
+category: crypto
+
+description: |
+  LCG pseudo-randoms are fun! I've created a simple encryption scheme using one. Can you break it?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{570p_br34k1n6_my_PRNGs..:|..}
+
+files:
+  - public/main.py
+  - public/output.txt
+
+tags:
+  - crypto
+  - medium
+
+state: visible
+version: "0.1"

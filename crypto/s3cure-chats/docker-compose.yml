@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: ./setup/
+    image: ghcr.io/cybermouflons/gtbq-2024/s3cure-chats:latest
+    ports:
+      - 1337:5000
