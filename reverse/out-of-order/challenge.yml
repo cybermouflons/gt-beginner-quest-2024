@@ -1,0 +1,27 @@
+name: "Out of order"
+author: "souvlakia"
+category: reverse
+
+description: |
+  Two friends communicate with each other encrypting their messages using this program. They think that nobody except them can figure out how to reverse the message. Can you prove them wrong?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{1n7r0_70_r3v3r51n6}
+
+files:
+  - public/order.txt
+  - public/source.py
+
+tags:
+  - reverse
+  - easy
+
+state: visible
+version: "0.1"

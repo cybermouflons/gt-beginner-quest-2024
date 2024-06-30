@@ -1,0 +1,26 @@
+name: "kidrev"
+author: "souvlakia"
+category: reverse
+
+description: |
+  Can you reverse engineer the message that this binary produced?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{r3v3r51n6_15_fun}
+
+files:
+  - public/chall
+
+tags:
+  - reverse
+  - easy
+
+state: visible
+version: "0.1"
