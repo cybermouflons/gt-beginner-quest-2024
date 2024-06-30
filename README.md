@@ -14,12 +14,23 @@ Although some of the challenges may run as is, it is recommended that you have d
 ## Challenges
 
 
+### crypto
+
+| Name | Author |
+| ---- | ------ |
+| [LCG Encryptor](./crypto/lcg-encryptor) | souvlakia |
+| [RNG Casino](./crypto/rng-casino) | souvlakia |
+| [S3cure Chats](./crypto/s3cure-chats) | souvlakia |
+
+
+
 ### misc
 
 | Name | Author |
 | ---- | ------ |
 | [Brute Willis](./misc/Brute-Willis) | tratrafe2 |
 | [c4lcu1at0r](./misc/c4lcu1at0r) | cfalas |
+| [convince-me](./misc/convince-me) | cfalas |
 | [secret-key](./misc/secret-key) | tratrafe2 |
 
 
@@ -55,5 +66,6 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [NMAPper](./web/nmapper) | Evangelospro |
 | [SQL Sleuth: The Hidden Injection](./web/sql-sleuth) | Evangelospro |
 | [SSRFing](./web/ssrfing) | Evangelospro |
+| [Where's The Sauce?](./web/wheres_the_sauce) | sAINT_barber |
 
 
