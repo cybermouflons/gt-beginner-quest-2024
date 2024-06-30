@@ -50,6 +50,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [Baby Flask](./web/baby-flask) | Evangelospro |
 | [Biscuits](./web/biscuits) | Evangelospro |
 | [Flask Master](./web/flask-master) | Evangelospro |
+| [Hidden Notes](./web/hidden_notes) | sAINT_barber |
 | [looooong](./web/looooong) | Evangelospro |
 | [NMAPper](./web/nmapper) | Evangelospro |
 | [SQL Sleuth: The Hidden Injection](./web/sql-sleuth) | Evangelospro |
