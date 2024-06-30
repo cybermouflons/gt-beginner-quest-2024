@@ -28,6 +28,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 | Name | Author |
 | ---- | ------ |
+| [deprecated-hms](./pwn/deprecated-hms) | christoss |
 | [needle-in-a-haystack](./pwn/needle-in-a-haystack) | k4rt0fl3r |
 | [ticket-check](./pwn/ticket-check) | k4rt0fl3r |
 
