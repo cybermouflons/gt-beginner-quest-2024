@@ -5,6 +5,7 @@ services:
     restart: always
     ports:
       - 1337:1337
+    image: ghcr.io/cybermouflons/gtbq-2024/ticket-check:latest
     build:
       context: ./setup
       dockerfile: Dockerfile
