@@ -1,0 +1,9 @@
+services:
+
+  app:
+    image: ghcr.io/cybermouflons/ccsc2024/wheres_the_sauce:latest 
+    build: ./setup/
+    ports:
+      - 3000:3000
+    environment:
+      flag: CTF{r34d_th3_50urc3_und3r57and_th3_5auc3} 

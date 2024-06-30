@@ -1,0 +1,27 @@
+name: "Where's The Sauce?"
+author: "sAINT_barber"
+category: web
+
+description: |
+  There should be a flag somewhere on this site, but the developer has hidden it well.
+  Luckily we have the source code!
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - CTF{r34d_th3_50urc3_und3r57and_th3_5auc3}
+
+tags:
+  - beginner
+
+
+state: visible
+version: "0.1"
