@@ -1,0 +1,30 @@
+name: "deprecated-hms"
+author: "christoss"
+category: pwn
+
+description: |
+  
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{py7h0n2_w45_d3pr3c473d_f0r_4_r3450n3}
+
+tags:
+  - pwn
+  - begginer
+
+files:
+  - "public/challenge.py"
+  - "public/flag.txt"
+
+state: visible
+version: "0.1"
