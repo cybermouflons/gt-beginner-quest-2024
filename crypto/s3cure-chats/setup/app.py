@@ -31,13 +31,14 @@ def register(error_message=''):
                 return redirect(url_for('register'))
             n_len=int(request.form['n_length'])
             e=int(request.form['e'])
-            session['username']=username
             key=make_key(n_len,e)
             session['private_key']=key.export_key().decode()
             session['public_key']=key.public_key().export_key().decode()
+            session['username']=username
             add_user(username,key)  
             return redirect(url_for('chats'))
         except Exception as e:
+            session.clear()
             flash('Invalid Request')
             print(e)
             return redirect(url_for('register'))
