@@ -1,0 +1,27 @@
+name: "babyrsa"
+author: "souvlakia"
+category: crypto
+
+description: |
+  Fundamentals of RSA. Can you decrypt the message?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{g0tt4_l0v3_GCD_&_mult1_Pr1me_rs4}
+
+files:
+  - public/source.py
+  - public/output.txt
+
+tags:
+  - crypto
+  - beginner
+
+state: visible
+version: "0.1"

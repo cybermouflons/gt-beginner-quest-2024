@@ -1,0 +1,26 @@
+name: "Rotten Salad"
+author: "souvlakia"
+category: crypto
+
+description: |
+  Caesar came up with a cipher to protect the salad recipe his cyber Chef made. Can you help Brutus decrypt it?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{3t_Tu_bRut3?}
+
+files:
+  - public/salad.txt
+
+tags:
+  - crypto
+  - beginner
+
+state: visible
+version: "0.1"
