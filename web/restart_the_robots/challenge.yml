@@ -1,0 +1,26 @@
+name: "Restart the Robots"
+author: "sAINT_barber"
+category: web
+
+description: |
+  Where do directories go when they want to hide from robots?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{ch3ck_r0b0ts_4_h1dd3n_d1r3ct0r13s}
+
+tags:
+  - beginner
+
+
+state: visible
+version: "0.1"

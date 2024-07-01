@@ -1,0 +1,9 @@
+services:
+
+  app:
+    image: ghcr.io/cybermouflons/gt-beginner-quest-2024/restart_the_robots:latest
+    build: ./setup/
+    ports:
+      - 3000:3000
+    environment:
+      flag: GTBQ{ch3ck_r0b0ts_4_h1dd3n_d1r3ct0r13s}
