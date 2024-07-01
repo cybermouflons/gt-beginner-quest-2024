@@ -18,8 +18,10 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 | Name | Author |
 | ---- | ------ |
+| [babyrsa](./crypto/babyrsa) | souvlakia |
 | [LCG Encryptor](./crypto/lcg-encryptor) | souvlakia |
 | [RNG Casino](./crypto/rng-casino) | souvlakia |
+| [Rotten Salad](./crypto/rotten-salad) | souvlakia |
 | [S3cure Chats](./crypto/s3cure-chats) | souvlakia |
 
 
