@@ -17,6 +17,7 @@ flags:
 
 files:
   - public/chall
+  - public/output.txt
 
 tags:
   - reverse
