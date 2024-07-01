@@ -27,6 +27,6 @@ def admin():
     if request.remote_addr != '127.0.0.1':
         error = 'Only localhost is allowed to access this page'
         return render_template('fetch.html', error=error)
-    return FLAG
+    return render_template('admin.html', flag=FLAG)
 
 app.run(host='0.0.0.0', port=80, debug=True)

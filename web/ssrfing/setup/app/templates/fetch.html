@@ -7,19 +7,20 @@
     </div>
     {% endif %}
 	<div class="card-body">
+        <blockquote>The internet is a scary place, for that reason I created this cool proxy app. You can view any website, without actually having to expose yourself to it. Hopefully I have not exposed myself to any issues by allowing you to do that. Eh who knows... Just give it a shot!</blockquote>
 		<form action="/fetch" method="post">
 			<div class="form-group">
-				<label for="url">Enter URL:</label>
+				<label class="text-white" for="url">Enter URL:</label>
 				<input
 					type="text"
 					class="form-control"
 					id="url"
 					name="url"
-					placeholder="E.g., https://example.com"
+					placeholder="https://example.com"
 					required
 				/>
 			</div>
-			<button type="submit" class="btn btn-primary">Send Request</button>
+			<button type="submit" class="btn btn-primary">Proxy Request</button>
 		</form>
 	</div>
     {% if response %}
