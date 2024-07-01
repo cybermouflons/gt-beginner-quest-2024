@@ -74,6 +74,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [Biscuits](./web/biscuits) | Evangelospro |
 | [Flask Master](./web/flask-master) | Evangelospro |
 | [Hidden Notes](./web/hidden_notes) | sAINT_barber |
+| [Inspector Gadget](./web/inspector_gadget) | sAINT_barber |
 | [looooong](./web/looooong) | Evangelospro |
 | [NMAPper](./web/nmapper) | Evangelospro |
 | [SQL Sleuth: The Hidden Injection](./web/sql-sleuth) | Evangelospro |
