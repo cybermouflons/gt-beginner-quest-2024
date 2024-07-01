@@ -70,11 +70,23 @@ def show_post(post_id):
 @login_required
 def report_post():
     if request.method == 'POST':
-        url = request.form['url']
+        post_id = request.form['postId']
 
+        valid_id = True
+
+        try:
+            post_id = int(post_id)
+        except:
+            valid_id = False
+
+        if not post_id or valid_id == False:
+            return render_template('report_post.html', error_message="Please provide a valid post ID.")
+        
+
+        url = f"http://users-service:5000/posts/{post_id}"
         requests.get(f"http://admin-bot-service:3000/report?url={url}")
 
 
-        return render_template('report_url.html', success_message="The admin will visit your URL soon.")
+        return render_template('report_post.html', success_message="The admin will visit your post soon.")
 
-    return render_template('report_url.html')
+    return render_template('report_post.html')

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report URL</title>
+    <title>Report Post</title>
     <link rel="stylesheet" href="https://hackerthemes.com/bootstrap-themes/demo/theme-machine/neon-glow/css/bootstrap4-neon-glow.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h1 class="text-center neon-text-blue">Report URL</h1>
+                <h1 class="text-center neon-text-blue">Report Post</h1>
 
                 <!-- Success Message -->
                 {% if success_message %}
@@ -47,24 +47,17 @@
                 </div>
                 {% endif %}
 
-                <nav class="navbar fixed-top justify-content-between">
-        <a href="/" class="btn btn-primary neon-border-blue"><i class="fas fa-home"></i></a>
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="/auth/logout">Log Out</a>
-                <a class="dropdown-item" href="/posts/report">Report URL</a>
-                <a class="dropdown-item" href="/posts/add">Add Post</a>
-                <a class="dropdown-item" href="/posts">My Posts</a>
-            </div>
-        </div>
-    </nav>
+                <!-- Error Message -->
+                {% if error_message %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error_message }}
+                </div>
+                {% endif %}
 
                 <form action="/posts/report" method="post">
                     <div class="form-group">
-                        <label for="url" class="neon-text-blue">URL</label>
-                        <input type="url" class="form-control neon-border-blue" id="url" name="url" required>
+                        <label for="postId" class="neon-text-blue">Post ID</label>
+                        <input type="text" class="form-control neon-border-blue" id="postId" name="postId" required>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary neon-border-blue">Report</button>
