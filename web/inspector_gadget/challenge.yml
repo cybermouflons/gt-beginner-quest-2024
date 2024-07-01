@@ -1,0 +1,27 @@
+name: "Inspector Gadget"
+author: "sAINT_barber"
+category: web
+
+description: |
+  This website doesnt contain much, but digging deeper might reveal some interesting stuff.
+  Can you read each part of the flag from all the sources?
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{1nsp3ct_4nd_1nv3st1g4t3_th3_cl13nt_s1d3_s0urc3_c0d3}
+
+tags:
+  - beginner
+
+
+state: visible
+version: "0.1"

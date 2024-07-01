@@ -1,0 +1,9 @@
+services:
+
+  app:
+    image: ghcr.io/cybermouflons/gt-beginner-quest-2024/inspector_gadget:latest 
+    build: ./setup/
+    ports:
+      - 3000:3000
+
+      
