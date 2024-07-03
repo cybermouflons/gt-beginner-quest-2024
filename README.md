@@ -30,6 +30,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 | Name | Author |
 | ---- | ------ |
+| [ShellPower](./forensics/ShellPower) | canopus |
 | [Sharks Meet the Wire](./forensics/sharks-meet-the-wire) | canopus |
 | [String Decoder](./forensics/string-decoder) | canopus |
 
