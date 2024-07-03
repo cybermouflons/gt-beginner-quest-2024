@@ -23,5 +23,4 @@ def get_file():
 
 if __name__ == '__main__':
     # I enabled debug mode so I can debug using /console
-    app.run('0.0.0.0', 5000, debug=True)
-
+    app.run('127.0.0.1', 5000, debug=True)
