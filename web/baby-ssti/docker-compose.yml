@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: ./setup
+      dockerfile: Dockerfile
+    image: ghcr.io/cybermouflons/gtbq-2024/baby-ssti:latest
+    ports:
+      - 5000:5000
