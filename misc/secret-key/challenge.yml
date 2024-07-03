@@ -3,7 +3,7 @@ author: "tratrafe2"
 category: misc
 
 description: |
-  while trying to investigate tHe files of a criminal, we found this wEird key_X.txt file. however, it doesn't seem to have any meaning. mayBe it's An encoded mesSagE that we should try to re6ognize and cr4ck it. let's tRy Our besT!
+  while trying to investigate tHe files of a criminal, we found this wEird key_X.txt file. however, it doesn't seem to have any meaning. mayBe it's An encoded mesSagE that we should try to re6ognize and cr4ck it. let's try our best! (The flag is in UPPERCASE)
 
 value: 500
 type: dynamic
@@ -13,7 +13,7 @@ extra:
   decay: 25
 
 flags:
-  - GTBQ{3nc0d1ng_15_r3ally_c00l_but_n0t_s0_saf3!}
+  - GTBQ{3NC0D1NG_15_R3ALLY_C00L_BUT_N0T_S0_SAF3!}
 
 files:
   - public/key_x.txt
