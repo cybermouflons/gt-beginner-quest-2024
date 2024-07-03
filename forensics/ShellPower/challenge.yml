@@ -19,7 +19,7 @@ tags:
   - forensics
 
 files:
-  - "public/capture.pcap"
+  - "public/capture.pcapng"
 
 state: visible
 version: "0.1"
