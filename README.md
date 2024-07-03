@@ -75,6 +75,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 | Name | Author |
 | ---- | ------ |
 | [Baby Flask](./web/baby-flask) | Evangelospro |
+| [baby-ssti](./web/baby-ssti) | MariosK |
 | [Biscuits](./web/biscuits) | Evangelospro |
 | [Flask Master](./web/flask-master) | Evangelospro |
 | [Hidden Notes](./web/hidden_notes) | sAINT_barber |
