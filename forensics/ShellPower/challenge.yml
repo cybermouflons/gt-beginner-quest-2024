@@ -1,0 +1,25 @@
+name: "ShellPower"
+author: "canopus"
+category: Forensics
+
+description: |
+  Oh My... What Happened Here...? Well, what happened?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 100
+  decay: 50
+
+flags:
+  - GTBQ{b4by_st3ps_1n_p0w33rrrrrr-Sh3ll_de0bfusc4t10n!}
+
+tags:
+  - forensics
+
+files:
+  - "public/capture.pcap"
+
+state: visible
+version: "0.1"
