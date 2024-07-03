@@ -42,11 +42,7 @@ def welcome():
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <h1 class="text-center neon-text-blue">Welcome</h1>
-                    <!-- Welcome Message -->
-                    <div class="alert alert-success" role="alert">
-                        { msg }
-                    </div>
+                    <h1 class="text-center neon-text-blue">{ msg }</h1>
                 </div>
             </div>
         </div>
