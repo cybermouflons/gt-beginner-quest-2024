@@ -30,7 +30,8 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 | Name | Author |
 | ---- | ------ |
-| [String Decoder](./forensics/string_decoder) | canopus |
+| [Sharks Meet the Wire](./forensics/sharks-meet-the-wire) | canopus |
+| [String Decoder](./forensics/string-decoder) | canopus |
 
 
 
