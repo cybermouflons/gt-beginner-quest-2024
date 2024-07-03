@@ -9,13 +9,19 @@ def index():
     return render_template('index.html', files=files)
 
 
-@app.route('/get_file', methods=['POST'])
+@app.route('/get_file', methods=['GET','POST'])
 def get_file():
-    filename = request.form['filename']
+    if request.method == 'GET':
+        filename = request.args.get('filename')
+    elif request.method == 'POST':
+        filename = request.form['filename']
     # python was made to be easy, don't complicate things
     with open(filename, 'r') as f:
-        return f.read()
+        file = f.read()
+    
+    return file
 
 if __name__ == '__main__':
     # I enabled debug mode so I can debug using /console
-    app.run('127.0.0.1', 5000, debug=True)
+    app.run('0.0.0.0', 5000, debug=True)
+

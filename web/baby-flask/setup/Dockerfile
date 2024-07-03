@@ -15,11 +15,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./app /app/
 
-EXPOSE 80
-
-RUN rm /etc/nginx/sites-enabled/default
-COPY conf/app.conf /etc/nginx/sites-enabled/app
-
 COPY supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 
 ENTRYPOINT ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisor.conf"]
