@@ -1,0 +1,27 @@
+name: "xeger-3"
+author: "oxnan"
+category: misc
+
+description: |
+Hmm... My last xeger challenge looked very clean. This time, I decided to faceplant my keyboard, to make sure no one would ever get the flag ** Laughs in miscgang **
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+
+
+flags:
+  - GTBQ{B1G_4F_(burger)_R3G3X!}
+
+tags:
+  - misc
+  - hard
+
+files:
+  - "public/challenge.txt"
+
+state: visible
+version: "0.1"

@@ -1,6 +1,6 @@
-name: "xeger"
+name: "xeger-1"
 author: "oxnan"
-category: reverse
+category: misc
 
 description: |
   This looks like some fancy [CTRL] + [F] thing...\nThe flag matches the following regex: [a-zA-Z0-9\\x20-\\x2f\\x3a-\\x40\\x5e-\\x60\\x7b-\\x7e]
@@ -17,7 +17,7 @@ flags:
   - GTBQ{D0n'7_y0u_l0v3_r3g3x?!}
 
 tags:
-  - rev
+  - misc
   - easy
 
 files:

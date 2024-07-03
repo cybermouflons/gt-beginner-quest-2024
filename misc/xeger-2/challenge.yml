@@ -1,0 +1,27 @@
+name: "xeger-2"
+author: "oxnan"
+category: misc
+
+description: |
+My last flag was definitely a fancy [CTRL] + [F] thing, however I decided that it was too small, so I made it bigger!
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+
+
+flags:
+  - GTBQ{B1G_R3G3X!}
+
+tags:
+  - misc
+  - medium
+
+files:
+  - "public/challenge.txt"
+
+state: visible
+version: "0.1"
