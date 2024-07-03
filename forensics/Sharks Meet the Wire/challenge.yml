@@ -1,0 +1,25 @@
+name: "Sharks Meet the Wire"
+author: "canopus"
+category: Forensics
+
+description: |
+  "I wonder what requests have been made and what files did they download... Be careful of the new-lines in the water, they are bad bad characters..."
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 100
+  decay: 50
+
+flags:
+  - GTBQ{w1r3sh4rk_sm3lls_bl00d_0n_th3_w1re!!}
+
+tags:
+  - forensics
+
+files:
+  - "public/capture.pcapng"
+
+state: visible
+version: "0.1"
