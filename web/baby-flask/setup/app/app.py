@@ -18,9 +18,9 @@ def get_file():
     # python was made to be easy, don't complicate things
     with open(filename, 'r') as f:
         file = f.read()
-    
+
     return file
 
 if __name__ == '__main__':
     # I enabled debug mode so I can debug using /console
-    app.run('127.0.0.1', 5000, debug=True)
+    app.run('0.0.0.0', 5000, debug=True)

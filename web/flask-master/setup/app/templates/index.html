@@ -11,7 +11,10 @@
 			<ul class="list-group">
 				{% for file in files %}
 				<li class="list-group-item bg-dark border-light">
-					<form action="/get_file" method="post" class="d-inline">
+					<a href="/get_file?filename=/app/files/{{ file }}" class="text-neon"
+						>{{ file }}</a
+					>
+					<!-- <form action="/get_file" method="post" class="d-inline">
 						<input
 							type="hidden"
 							name="filename"
@@ -20,7 +23,7 @@
 						<button type="submit" class="btn btn-link text-neon">
 							{{ file }}
 						</button>
-					</form>
+					</form> -->
 				</li>
 				{% endfor %}
 			</ul>

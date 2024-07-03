@@ -13,9 +13,9 @@ def index():
 def magic():
     response_headers = {
         'Location': url_for('end'),
-        'Flag': FLAG
+        'Content-Type': 'text/html; charset=utf-8'
     }
-    response = make_response('', 302)
+    response = make_response(render_template('flag.html', flag=FLAG), 302)
     response.headers = response_headers
     return response
 
