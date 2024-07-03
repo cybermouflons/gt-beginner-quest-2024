@@ -45,6 +45,9 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [c4lcu1at0r](./misc/c4lcu1at0r) | cfalas |
 | [convince-me](./misc/convince-me) | cfalas |
 | [secret-key](./misc/secret-key) | tratrafe2 |
+| [xeger-1](./misc/xeger-1) | oxnan |
+| [xeger-2](./misc/xeger-2) | oxnan |
+| [xeger-3](./misc/xeger-3) | oxnan |
 
 
 
@@ -67,7 +70,6 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [kidrev](./reverse/kidrev) | souvlakia |
 | [Out of order](./reverse/out-of-order) | souvlakia |
 | [software-tracer](./reverse/software-tracer) | christoss |
-| [xeger](./reverse/xeger) | oxnan |
 
 
 
