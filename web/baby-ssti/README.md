@@ -9,7 +9,7 @@
 
 ## Description
 
-Dive into Baby-SSTI and tinker with templates! Can you inject some fun and execute unexpected code on the server? 
+Dive into Baby-SSTI and tinker with templates! Can you inject some fun and execute unexpected code on the server? Flag is at /flag-$RANDOM_CHARS.txt.
 
 
 

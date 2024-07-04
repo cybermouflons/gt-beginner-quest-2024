@@ -9,7 +9,7 @@
 
 ## Description
 
-I always loved being organized, so I decided to create a file manager that will help me keep my files in order. Please, don't mess with my files, I have a lot of important stuff in there! I mean you can't get the flag or something, right?
+I always loved being organized, so I decided to create a file manager that will help me keep my files in order. Please, don't mess with my files, I have a lot of important stuff in there! I mean you can't get the flag or something, right? Flag is at /flag-$RANDOM_CHARS.txt.
 
 
 

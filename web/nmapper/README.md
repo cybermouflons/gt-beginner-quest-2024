@@ -9,7 +9,7 @@
 
 ## Description
 
-In old time people had those big and chunky paper maps to navigate through the world. Nowadays we have tools like Nmap to navigate through the internet. Can you find the hidden flag on this servers filesystem?
+In old time people had those big and chunky paper maps to navigate through the world. Nowadays we have tools like Nmap to navigate through the internet. Can you find the hidden flag on this servers filesystem? Flag is at /flag-$RANDOM_CHARS.txt.
 
 
 
