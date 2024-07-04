@@ -5,7 +5,7 @@ category: web
 description: |
   Flask Master is the sequel to Baby Flask.
 
-  I always loved being organized, so I decided to create a file manager that will help me keep my files in order. Please, don't mess with my files, I have a lot of important stuff in there! I mean you can't get the flag or something, right? Can you get it now that the logs are gone?
+  I always loved being organized, so I decided to create a file manager that will help me keep my files in order. Please, don't mess with my files, I have a lot of important stuff in there! I mean you can't get the flag or something, right? Can you get it now that the logs are gone? Flag is at /flag-$RANDOM_CHARS.txt.
 
 value: 500
 type: dynamic_docker

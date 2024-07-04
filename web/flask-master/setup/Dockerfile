@@ -4,8 +4,7 @@ FROM python:3.9-slim
 RUN apt-get update && apt-get install -y curl gcc nginx supervisor
 
 COPY flag.txt /flag.txt
-COPY entrypoint.sh /entrypoint.sh
-RUN bash /entrypoint.sh
+RUN mv /flag.txt /flag-$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13 ; echo '').txt
 
 WORKDIR /app
 
