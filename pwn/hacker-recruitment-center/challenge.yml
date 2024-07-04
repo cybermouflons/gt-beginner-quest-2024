@@ -3,7 +3,7 @@ author: "christoss"
 category: pwn
 
 description: |
-  Hacking is about thinking (and sometimes writing?) outside the box. Give it a try!
+  Hacking is about thinking (and sometimes writing?) outside the box. Give it a try! Trigger a fault; a segmentation fault!
 
 value: 500
 type: dynamic_docker
