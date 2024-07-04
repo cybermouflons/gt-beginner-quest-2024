@@ -9,6 +9,7 @@
 
 ## Description
 
+I found this ancient piece of software writen in python2. I'm sure it should be fine to use... Hopefully.
 
 
 

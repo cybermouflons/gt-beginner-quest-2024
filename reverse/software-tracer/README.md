@@ -7,5 +7,6 @@
 
 ## Description
 
+Go ahead and "trace" your way through this software maze.
 
 

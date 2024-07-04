@@ -9,7 +9,7 @@
 
 ## Description
 
-Hacking is about thinking (and sometimes writing?) outside the box. Give it a try!
+Hacking is about thinking (and sometimes writing?) outside the box. Give it a try! Trigger a fault; a segmentation fault!
 
 
 
