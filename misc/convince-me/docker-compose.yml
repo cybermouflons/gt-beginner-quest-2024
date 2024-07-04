@@ -5,7 +5,7 @@ services:
     restart: always
     build: ./setup/
     environment:
-      FLAG: CTF{39b8f45879db8f58f48d64ceb818e567}
+      FLAG: GTBQ{39b8f45879db8f58f48d64ceb818e567}
       API_KEY: sk-proj-vopvUjFiktIbHJre3Fl2T3BlbkFJWs5wpdf0yITuJwjmgKOd
     ports:
       - 1337:1337

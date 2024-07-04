@@ -15,7 +15,7 @@ extra:
   compose_stack: !filecontents docker-compose.yml
 
 flags:
-  - CTF{39b8f45879db8f58f48d64ceb818e567}
+  - GTBQ{39b8f45879db8f58f48d64ceb818e567}
 
 tags:
   - misc
