@@ -1,0 +1,35 @@
+name: "Diffie-Hellman"
+author: "feltf"
+category: crypto
+
+description: |
+  Play the role of Bob (one of the two parties) in the Diffie-Hellman key
+  exchange algorithm to obtain the shared secret!
+  
+  Then decrypt the encrypted flag that Alice will send to you!
+
+  You don't have to implement the cryptographic algorithms from scratch. Take a look at the
+  python crypto library [PyCryptodome](https://pycryptodome.readthedocs.io/en/latest/),
+  it will help you to decrypt the flag. 
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{d1ff1e_h3llm4n_key_exchang3_and_bas1c_crypt0}
+
+files:
+  - public/server.py
+
+tags:
+  - crypto
+  - beginner
+
+state: visible
+version: "0.1"
