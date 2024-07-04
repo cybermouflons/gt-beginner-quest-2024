@@ -1,0 +1,30 @@
+name: "hshh"
+author: "souvlakia"
+category: crypto
+
+description: |
+  I've been working on a new encryption algorithm that hashes and xors the input. I think it's secure, but I'm not sure. Can you take a look?
+  
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+flags:
+  - GTBQ{d0n7_r3u53_k3y5!!}
+
+files:
+  - public/server.py
+
+tags:
+  - crypto
+  - easy
+  - medium
+
+state: visible
+version: "0.1"

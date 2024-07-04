@@ -1,0 +1,27 @@
+name: "Xor Salad"
+author: "souvlakia"
+category: crypto
+
+description: |
+  Instead of adding each salad ingredient to the bowl, we XOR them together. Can you figure out the recipe?
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  minimum: 50
+  decay: 25
+
+flags:
+  - GTBQ{x0r_x0r_x0r}
+
+files:
+  - public/main.py
+
+tags:
+  - crypto
+  - beginner
+  - easy
+
+state: visible
+version: "0.1"
