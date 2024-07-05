@@ -58,6 +58,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 
 | Name | Author |
 | ---- | ------ |
+| [Babyfmt](./pwn/babyfmt) | s3nn |
 | [deprecated-hms](./pwn/deprecated-hms) | christoss |
 | [hacker-recruitment-center](./pwn/hacker-recruitment-center) | christoss |
 | [needle-in-a-haystack](./pwn/needle-in-a-haystack) | k4rt0fl3r |
