@@ -29,6 +29,7 @@ flags:
 
 tags:
   - forensics
+  - medium
 
 state: visible
 version: "0.1"

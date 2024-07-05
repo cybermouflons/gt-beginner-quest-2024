@@ -17,6 +17,7 @@ flags:
 
 tags:
   - forensics
+  - easy
 
 files:
   - "public/capture.pcapng"
