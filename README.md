@@ -88,6 +88,7 @@ Although some of the challenges may run as is, it is recommended that you have d
 | [Inspector Gadget](./web/inspector_gadget) | sAINT_barber |
 | [looooong](./web/looooong) | Evangelospro |
 | [NMAPper](./web/nmapper) | Evangelospro |
+| [PHPocalypse](./web/phpocalypse) | sAINT_barber |
 | [Restart the Robots](./web/restart_the_robots) | sAINT_barber |
 | [SQL Sleuth: The Hidden Injection](./web/sql-sleuth) | Evangelospro |
 | [SSRFing](./web/ssrfing) | Evangelospro |
