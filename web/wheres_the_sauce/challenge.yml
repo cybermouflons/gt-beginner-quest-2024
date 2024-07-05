@@ -16,10 +16,10 @@ extra:
   compose_stack: !filecontents docker-compose.yml
 
 flags:
-  - CTF{r34d_th3_50urc3_und3r57and_th3_5auc3}
+  - GTBQ{r34d_th3_50urc3_und3r57and_th3_5auc3}
 
 tags:
-  - beginner
+  - easy
 
 files:
   - "public/wheres_the_sauce.zip"
