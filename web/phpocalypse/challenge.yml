@@ -1,0 +1,27 @@
+name: "PHPocalypse"
+author: "sAINT_barber"
+category: web
+
+description: |
+  I created an image uploading application to store all my cool pictures! I left a secret at `/flag.txt` on the server.
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: http
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{PHP_f1l3_upl04d5_4774ck5_4r3_r34l_guY5!}
+
+
+tags:
+  - beginner
+
+
+state: visible
+version: "0.1"

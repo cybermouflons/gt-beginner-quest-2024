@@ -1,0 +1,11 @@
+services:
+
+  app:
+    image: ghcr.io/cybermouflons/gt-beginner-quest-2024/phpocalypse:latest 
+    build: ./setup/
+    ports:
+      - 3000:80 
+    environment:
+      flag: GTBQ{PHP_f1l3_upl04d5_4774ck5_4r3_r34l_guY5!}
+
+      
