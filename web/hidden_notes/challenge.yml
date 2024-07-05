@@ -18,7 +18,7 @@ extra:
 
 
 flags:
-  - CTF{wh3n_th3r3_4r3_n0_d00r5_ch3ck_1D0R}
+  - GTBQ{wh3n_th3r3_4r3_n0_d00r5_ch3ck_1D0R}
 
 tags:
   - beginner
