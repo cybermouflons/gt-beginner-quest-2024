@@ -12,9 +12,7 @@ type: dynamic
 extra:
   initial: 1
   minimum: 1
-  decay: 250
-  redirect_type: direct
-
+  decay: 0
 
 flags:
   - GTBQ{W3lcome_TO_Th3_Real}
