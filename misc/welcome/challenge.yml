@@ -1,0 +1,26 @@
+name: "Welcome"
+author: "noone"
+category: misc
+
+description: |
+  Find the flag somewhere here (hint: sort newest)
+
+  https://www.youtube.com/watch?v=m8e-FF8MsqU
+
+value: 1
+type: dynamic
+extra:
+  initial: 1
+  minimum: 1
+  decay: 250
+  redirect_type: direct
+
+
+flags:
+  - GTBQ{W3lcome_TO_Th3_Real}
+
+tags:
+  - welcome
+
+state: visible
+version: "0.1"
