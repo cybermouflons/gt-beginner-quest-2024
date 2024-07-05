@@ -1,0 +1,31 @@
+name: "Babyfmt"
+author: "s3nn"
+category: pwn
+
+description: |
+  What's so bad about printf()?
+
+  https://www.notion.so/apogiatzis/MSc-CTF-Pwn-9ecbafd7791a413dae7d37a24ec27fb9?p=d9b319fe6a3a4766a0033bb2607fec85&pm=s
+
+value: 500
+type: dynamic_docker
+extra:
+  initial: 500
+  minimum: 100
+  decay: 25
+  redirect_type: direct
+  compose_stack: !filecontents docker-compose.yml
+
+
+flags:
+  - GTBQ{l3ak_all_The_t1ngs!!!}
+
+files:
+  - "public/challenge"
+
+tags:
+  - pwn
+  - easy / medium
+
+state: visible
+version: "0.1"
